@@ -30,7 +30,7 @@ def do_train(cfg,
     logger = logging.getLogger("SIR.train")
     logger.info('start training')
     _LOCAL_PROCESS_GROUP = None
-    # 多GPU分布式训练
+# 分布式训练
     if device:
         model.to(local_rank)
         if torch.cuda.device_count() > 1 and cfg.MODEL.DIST_TRAIN:
