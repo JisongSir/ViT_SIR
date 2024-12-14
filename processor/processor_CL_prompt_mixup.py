@@ -3,8 +3,8 @@ import os
 import time
 import torch
 import torch.nn as nn
-from utils.meter import AverageMeter
-from utils.metrics import R1_mAP_eval
+from tools.meter import AverageMeter
+from tools.metrics import R1_mAP_eval
 from torch.cuda import amp
 import torch.distributed as dist
 
