@@ -9,5 +9,5 @@ eg.python train.py --config_file configs/Shoes/vit_train.yml
 # Test
 python test.py --config_file 'XXX' TEST.WEIGHT 'XXX'
 eg.python test.py --config_file configs/Shoes/vit_test.yml TEST.WEIGHT 'choose the trained weight'
-# Note
+# SIR-PPSUC Dataset
 The SIR-PPSUC dataset used in this project can be accessed by submitting a real-name request to the project leader via email: tangyunqi@ppsuc.edu.cn.
