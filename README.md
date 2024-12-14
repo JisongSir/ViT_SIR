@@ -1,6 +1,6 @@
 # ViT-SIR
 Vision Transformer-based Shoe Image Retrieval with Enhanced Feature Representation
-<img src="ViT_SIR.png" alt="ViT_SIR" style="width: 60%;"/>
+<img src="ViT_SIR.png" alt="ViT_SIR" style="width: 70%;"/>
 # Installation
 pip install -r requirements.txt
 # Train
